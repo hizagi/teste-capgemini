@@ -34,7 +34,7 @@ const routes = [
         name: "Home",
         meta: {
           description: "Sua Conta",
-          rule: new AclRule("public").generate(),
+          rule: new AclRule("account.index").generate(),
         },
         component: Home,
         children: [
@@ -44,7 +44,7 @@ const routes = [
             name: "Deposit",
             meta: {
               description: "Sua Conta",
-              rule: new AclRule("public").generate(),
+              rule: new AclRule("account.deposit").generate(),
             },
             component: Deposit,
           },
@@ -54,7 +54,7 @@ const routes = [
             name: "Withdraw",
             meta: {
               description: "Sua Conta",
-              rule: new AclRule("public").generate(),
+              rule: new AclRule("account.withdraw").generate(),
             },
             component: Withdraw,
           },
