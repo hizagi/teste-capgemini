@@ -21,7 +21,7 @@ O backend foi desenvolvido em **[Laravel](https://laravel.com/) ([PHP](https://w
     - **[Observers](https://github.com/hizagi/teste-capgemini/tree/master/backend/app/Http)**: onde estão localizados os observadores de eventos dos models.
     - **[Services](https://github.com/hizagi/teste-capgemini/tree/master/backend/app/Http)**: onde estão os services, são os responsaveis por gerir as regras de negócio da aplicação.
 
-- **[frontend](https://github.com/hizagi/teste-capgemini/tree/master/front-end)**: arquivos do projeto backend.
+- **[frontend](https://github.com/hizagi/teste-capgemini/tree/master/front-end)**: arquivos do projeto frontend.
   - **[src](https://github.com/hizagi/teste-capgemini/tree/master/front-end/src)**
     - **[components](https://github.com/hizagi/teste-capgemini/tree/master/front-end/src/components)**: onde estão localizados os componentes gerais do projeto que são utilizados em múltiplas páginas.
     - **[plugins](https://github.com/hizagi/teste-capgemini/tree/master/front-end/src/plugins)**: onde estão localizadas funções auxiliares adicionadas ao objeto Vue do projeto.
